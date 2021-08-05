@@ -1,0 +1,37 @@
+header {
+    height: 105px;
+    color: #FFF;
+    border: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    border: 1px solid black;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    background-color: yellow;
+    display: flex;    
+    height: 105px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    /* border: 1px solid black; */
+    padding: 10px;
+}
