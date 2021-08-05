@@ -1,27 +1,45 @@
+.container {
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
 header {
     height: 105px;
     color: #FFF;
+    background-color: #151b39;
     border: 1px solid black;
+}
+
+.container {
+    width: 1920px;
+    height: 100vh;
+    border: 1px solid black;
+    margin: auto;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    font-size: 1.2em;
 }
 
 .logo {
     display: flex;
-    border: 1px solid black;
+    height: 105px;
+    align-items: center;
+    margin-left: 30px;
 }
 
 .logo img {
-    width: 100px;
-    height: 100px;
+    width: 196px;
+    height: 70px;
 }
 
 nav {
-    background-color: yellow;
-    display: flex;    
+    display: flex;
+    justify-content: flex-end;
     height: 105px;
 }
 
@@ -32,6 +50,5 @@ nav ul {
 }
 
 nav ul li {
-    /* border: 1px solid black; */
     padding: 10px;
 }
